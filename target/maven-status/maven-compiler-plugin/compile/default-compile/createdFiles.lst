@@ -1,0 +1,5 @@
+com/example/WebhookApplication.class
+com/example/WebhookController.class
+com/example/WebhookRepository.class
+com/example/WebhookService.class
+com/example/model/WebhookModel.class
