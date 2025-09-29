@@ -10,7 +10,10 @@ import java.util.concurrent.ConcurrentHashMap;
 @RestController
 @RequestMapping("/webhook")
 public class WebhookController {
-
+    @GetMapping("/")
+    public String home() {
+        return "java-webhook-bot is up ✅";
+    }
     @Autowired
     private WebhookService webhookService;  // ← BU SATIRI EKLEYİN!
 
